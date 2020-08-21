@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/*Font family*/
+$font-family: 'Roboto', sans-serif;
+
+/*Paleta de Colores*/
+$color-background: HONEYDEW;
+$color-font-h1: hsl(44, 57%, 30%);
+$color-font-h2:  hsl(51, 39%, 54%);
+$color-title: hsl(207, 51%, 53%);
+$color-link-1: ORCHID;
+$color-link-2: MEDIUMTURQUOISE;
+$color-link-3: SALMON;
+
+/*Tamaño de letras*/
+$size-menu: 15px;
+
+
 body {
   margin: 0;
   padding: 0;
