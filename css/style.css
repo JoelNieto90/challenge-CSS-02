@@ -5,11 +5,22 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-header {
+.header {
   background: HONEYDEW;
   display: flex;
   justify-content: space-between;
   padding: 0px 20px;
+}
+.header__a__img {
+  width: 65px;
+}
+.header .menu {
+  display: flex;
+  list-style-type: none;
+}
+.header .menu__item {
+  font-size: 15px;
+  padding: 15px;
 }
 
 main {

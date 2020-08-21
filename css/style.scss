@@ -6,11 +6,25 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-header {
+.header {
     background: HONEYDEW;
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
+    &__a {
+        &__img
+        {
+            width: 65px;
+        }
+    }
+    .menu {
+        display: flex;
+        list-style-type: none;
+        &__item {
+            font-size: 15px;
+            padding: 15px;
+        }
+    }
 }
 
 main {
