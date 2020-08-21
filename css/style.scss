@@ -16,6 +16,28 @@ $color-link-3: SALMON;
 $size-menu: 15px;
 
 
+/*Mixin*/
+@mixin card_style {
+    border-radius: 15px;
+    overflow: hidden;
+    background: $color-background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin card_style_img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
+
+@mixin social_button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 3px solid $color-background;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -64,16 +86,9 @@ a {
 }
 
 .card {
-    border-radius: 15px;
-    overflow: hidden;
-    background: $color-background;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include card_style;
     &__img {
-        width: 200px;
-        height: 120px;
-        object-fit: cover;
+        @include card_style_img;
     }
     &__title {
         color: $color-title;
@@ -88,9 +103,7 @@ a {
     justify-content: space-evenly;
     padding-bottom: 30px;
     &__button {
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 3px solid $color-background;
+        @include social_button;
     }
 }
 
