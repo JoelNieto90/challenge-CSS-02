@@ -73,10 +73,26 @@ a {
   justify-content: space-evenly;
   padding-bottom: 30px;
 }
-.social__button {
+.social__button-1 {
   padding: 10px 20px;
   border-radius: 20px;
-  border: 3px solid HONEYDEW;
+  border: 3px solid #4a9cb5;
+  font-size: 15px;
+  color: #c12f4c;
+}
+.social__button-2 {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 3px solid #195361;
+  font-size: 15px;
+  color: #c6aa4e;
+}
+.social__button-3 {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 3px solid #5b8b67;
+  font-size: 15px;
+  color: #bd65b9;
 }
 
 .footer {
