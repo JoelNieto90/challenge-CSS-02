@@ -23,8 +23,14 @@ body {
   padding: 15px;
 }
 
-main {
+.main {
   text-align: center;
+}
+.main__h1 {
+  color: #786121;
+}
+.main__h2 {
+  color: #b7aa5c;
 }
 
 .cards {

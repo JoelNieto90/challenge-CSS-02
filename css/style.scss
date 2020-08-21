@@ -27,8 +27,14 @@ body {
     }
 }
 
-main {
+.main {
     text-align: center;
+    &__h1 {
+        color: hsl(44, 57%, 30%);
+    }
+    &__h2 {
+        color: hsl(51, 39%, 54%);
+    }
 }
 
 .cards {
