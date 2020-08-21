@@ -58,6 +58,9 @@ main {
     justify-content: center;
     align-items: center;
     padding: 30px 0px;
+    p {
+        margin: 0px;
+    }
     &__links {
         margin: 15px 0px;
         &__link-1 {
@@ -72,6 +75,3 @@ main {
     }
   }
   
-  footer p {
-    margin: 0px;
-  }
