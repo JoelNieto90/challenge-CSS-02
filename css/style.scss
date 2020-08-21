@@ -55,6 +55,9 @@ body {
         height: 120px;
         object-fit: cover;
     }
+    &__title {
+        color: hsl(207, 51%, 53%);
+    }
     &__subtitle {
         margin-top: 0px;
     }

@@ -52,6 +52,9 @@ body {
   height: 120px;
   object-fit: cover;
 }
+.card__title {
+  color: #4a8dc4;
+}
 .card__subtitle {
   margin-top: 0px;
 }
